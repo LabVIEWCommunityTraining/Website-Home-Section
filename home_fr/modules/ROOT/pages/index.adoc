@@ -2,3 +2,13 @@
 :navtitle: Home
 :description: Home of the CTI documentation.
 :page-role: home
+
+CAUTION: {wip}
+
+The site regroupe les cours proposés par la {lv} CTI.
+
+== Qu'est-ce que la CTI
+
+== Pourquoi la CTI
+
+== Qui est derrière la CTI

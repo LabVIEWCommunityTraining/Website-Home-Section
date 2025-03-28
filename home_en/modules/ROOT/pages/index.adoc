@@ -1,4 +1,14 @@
-= Welcome to the CTI documentation 
+= Welcome to the CTI website 
 :navtitle: Home
 :description: Home of the CTI documentation.
 :page-role: home
+
+CAUTION: {wip}
+
+This website gather all the courses offered by the {lv} CTI.
+
+== What is the CTI
+
+== Why the CTI
+
+== Who's behind the CTI
