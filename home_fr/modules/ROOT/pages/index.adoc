@@ -1,11 +1,11 @@
-= Binevenu sur le site web de la CTI 
-:navtitle: Home
+= Bienvenu sur le site web de la CTI 
+:navtitle: Accueil
 :description: Home of the CTI documentation.
 :page-role: home
 
 CAUTION: {wip}
 
-The site regroupe les cours proposés par la {lv} CTI.
+Ce site regroupe les cours proposés par la {lv} CTI.
 
 == Qu'est-ce que la CTI
 
