@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Trigger Workflow in Another Repository
         run: |
-          repo_owner="OlivierJourdan"
+          repo_owner="LabVIEWCommunityTraining"
           repo_name="www"
           workflow_file="publish-website-on-gh-pages.yml"
           branch="main"
