@@ -1,4 +1,4 @@
-= Bienvenu sur le site web de la CTI 
+= Bienvenue sur le site web de la CTI 
 :navtitle: Accueil
 :description: Home of the CTI documentation.
 :page-role: home
