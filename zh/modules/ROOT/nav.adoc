@@ -1,0 +1,2 @@
+* xref:index.adoc[The CTI project]
+* xref:contributing.adoc[How to contribute]
