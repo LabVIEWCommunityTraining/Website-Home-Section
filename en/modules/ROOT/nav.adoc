@@ -1,2 +1,3 @@
 * xref:index.adoc[The CTI project]
+* xref:set-up.adoc[General set-up]
 * xref:contributing.adoc[How to contribute]
