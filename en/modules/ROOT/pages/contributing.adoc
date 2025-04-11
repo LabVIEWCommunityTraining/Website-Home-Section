@@ -29,3 +29,58 @@ The content is written using the https://asciidoc.org/[AsciiDoc] markup language
 
 To learn the basics and advanced features of this language, visit the https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc documentation website].
 ====
+
+== Writing conventions
+
+=== VI names
+
+Use https://docs.asciidoctor.org/asciidoc/latest/text/bold/[bold] style to write VI names.
+
+.VI names
+[source#vi-names]
+[source]
+----
+Start with placing the *Initialize.vi*, and the *Close.vi* on a new Block Diagram.
+----
+
+The <<vi-names>> is rendered below.
+
+====
+Start with placing the *Initialize.vi*, and the *Close.vi* on a new Block Diagram.
+====
+
+=== Menu item path
+
+Use the https://docs.asciidoctor.org/asciidoc/latest/macros/ui-macros/#menu-macro-syntax[Menu macro] to display how to select an item in a menu.
+
+.Menu item path
+[source#menu-item-path]
+[source]
+----
+Open the start-up menu and click on menu:Other[Visit LabVIEW Community Training on GitHub].
+Go to the LabVIEW menu menu:Tools[Advanced > Masscompile].
+----
+
+The <<menu-item-path>> is rendered below.
+
+====
+Open the start-up menu and click on menu:Other[Visit LabVIEW Community Training on GitHub]. +
+Go to the LabVIEW menu menu:Tools[Advanced > Masscompile].
+====
+
+=== Keyboard shortcut
+
+Use the https://docs.asciidoctor.org/asciidoc/latest/macros/ui-macros/#button-macro-syntax[button macro] syntax to display keystroks used for keyboard shortcuts.
+
+.Keyboard Shortcut
+[source#kbd-shortcut]
+[source]
+----
+Press kbd:[Ctrl-H] to bring up the context help window.
+----
+
+The <<kbd-shortcut>> is rendered below.
+
+====
+Press kbd:[Ctrl-H] to bring up the context help window.
+====
