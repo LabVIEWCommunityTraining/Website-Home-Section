@@ -38,7 +38,7 @@ Use https://docs.asciidoctor.org/asciidoc/latest/text/bold/[bold] style to write
 
 .VI names
 [source#vi-names]
-[source]
+[source,asciidoc]
 ----
 Start with placing the *Initialize.vi*, and the *Close.vi* on a new Block Diagram.
 ----
@@ -55,7 +55,7 @@ Use the https://docs.asciidoctor.org/asciidoc/latest/macros/ui-macros/#menu-macr
 
 .Menu item path
 [source#menu-item-path]
-[source]
+[source,asciidoc]
 ----
 Open the start-up menu and click on menu:Other[Visit LabVIEW Community Training on GitHub].
 Go to the LabVIEW menu menu:Tools[Advanced > Masscompile].
@@ -74,7 +74,7 @@ Use the https://docs.asciidoctor.org/asciidoc/latest/macros/ui-macros/#button-ma
 
 .Keyboard Shortcut
 [source#kbd-shortcut]
-[source]
+[source,asciidoc]
 ----
 Press kbd:[Ctrl-H] to bring up the context help window.
 ----
