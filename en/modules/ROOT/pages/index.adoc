@@ -5,10 +5,36 @@
 
 CAUTION: {wip}
 
-This website gather all the courses offered by the {lv} CTI.
+This website gathers all the courses offered by the {lv} CTI.
 
 == What is the CTI
 
+CTI stands for the Community Training Initiative and the idea is to make LabVIEW available to Anyone, Anywhere and it is as simple as that.
+
+It is currently concentrating on open-source training materials and low-cost training platforms, hopefully removing the cost of entry to the world of graphical programming.
+
+It currently consists of a website for the course materials (here), a downloadable virtual machine image with LabVIEW for Linux loaded (kindly hosted by https://gcentral.org/cti/[GCentral]) and firmware to convert a Raspberry Pi Pico into a SCPI VISA Instrument.
+
+As mentioned before everything is open-source and hosted on our https://github.com/LabVIEWCommunityTraining[github page]
+
 == Why the CTI
 
+A software language needs a healthy eco-system to thrive, and back in late 2022 Steve Watts wrote an article exploring the sad state of the https://forums.ni.com/t5/Random-Ramblings-on-LabVIEW/The-LabVIEW-Eco-system/ba-p/4268997[LabVIEW eco-system]. In it he highlighted the poor support available for people just starting out their careers. Which led onto the high cost of entry to anyone wanting to put on a training course, which led onto the fact that only people with considerable resources could give a LabVIEW training course... this was a wrong that needed righting.
+
+This problem was raised in a CSLUG Meeting in https://www.youtube.com/watch?v=TbfEZv_zTSw[March 2023 from 56 mins] and discussed in a virtual coffee meeting in June 2023 where the VISA Pico firmware idea was discussed.
+
 == Who's behind the CTI
+The trouble with a list of contributors is I will miss important people out, github and the discord server is the best place for up to date info.
+
+The initial idea was from Steve Watts who now works on hardware platforms and new course materials. The original course material was written by his daughter Poppy Watts.
+
+Derrick Bommarito made the VISA firmware for Pico.
+
+Georgios Tsalavoutis massively improved the Virtual Machine and gave us the logo.
+
+Fabiola De la Cueva, Olivier Jourdan for re-organising the documentation.
+
+Nancy Henson distilled the whole idea into "Anyone can learn LabVIEW Anywhere 😊", this really focussed the focus of the project
+
+Enrique Noé Arias, Tim Robinson, John Medland, Norm Kirchner, 
+
