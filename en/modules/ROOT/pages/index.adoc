@@ -13,7 +13,7 @@ CTI stands for the Community Training Initiative and the idea is to make LabVIEW
 
 It is currently concentrating on open-source training materials and low-cost training platforms, hopefully removing the cost of entry to the world of graphical programming.
 
-It currently consists of a website for the course materials (here), a downloadable virtual machine image with LabVIEW for Linux loaded (kindly hosted by https://gcentral.org/cti/[GCentral]) and firmware to convert a Raspberry Pi Pico into a SCPI VISA Instrument.
+It currently consists of a website for the course materials (here), a downloadable virtual machine image with LabVIEW for Linux loaded (kindly hosted by https://gcentral.org/cti/[GCentral]) and firmware to convert a Raspberry Pi Pico into a https://en.wikipedia.org/wiki/SCPI[SCPI] https://en.wikipedia.org/wiki/VISA[VISA] Instrument.
 
 As mentioned before everything is open-source and hosted on our https://github.com/LabVIEWCommunityTraining[github page]
 
