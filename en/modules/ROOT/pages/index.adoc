@@ -3,9 +3,10 @@
 :description: Home of the CTI website.
 :page-role: home
 
-CAUTION: {wip}
-
-This website gathers all the courses offered by the {lv} CTI.
+[.panel]
+--
+test
+--
 
 == What is the CTI?
 
