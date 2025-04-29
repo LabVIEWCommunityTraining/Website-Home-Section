@@ -6,7 +6,6 @@
 == What is the CTI?
 [.panel]
 --
-[discrete]
 CTI stands for the Community Training Initiative and the idea is to make LabVIEW available to Anyone, Anywhere and it is as simple as that.
 
 It is currently concentrating on open-source training materials and low-cost training platforms, hopefully removing the cost of entry to the world of graphical programming.
@@ -26,7 +25,6 @@ This problem was raised in a CSLUG Meeting in https://www.youtube.com/watch?v=Tb
 == Who's behind the CTI?
 [.panel]
 --
-[discrete]
 The trouble with a list of contributors is important people will be missed out, github and the discord server is the best place for up to date info.
 
 * The initial idea was from Steve Watts who now works on hardware platforms and new course materials. The original course material was written by his daughter Poppy Watts.
