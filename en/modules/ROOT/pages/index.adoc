@@ -5,6 +5,7 @@
 
 [.panel]
 --
+[discrete]
 == What is the CTI?
 
 CTI stands for the Community Training Initiative and the idea is to make LabVIEW available to Anyone, Anywhere and it is as simple as that.
@@ -25,6 +26,7 @@ This problem was raised in a CSLUG Meeting in https://www.youtube.com/watch?v=Tb
 
 [.panel]
 --
+[discrete]
 == Who's behind the CTI?
 The trouble with a list of contributors is important people will be missed out, github and the discord server is the best place for up to date info.
 
