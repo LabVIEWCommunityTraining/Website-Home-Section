@@ -49,9 +49,13 @@ You may need to click on the "Show" button to get to your Virtual Machine
 
 image::in_008_Show.png[]
 
-NOTE: Tip, the right ctrl button will free your mouse if the VM steals it.
+TIP: The right btn:[ctrl] button will free your mouse if the VM steals it.
 
-We no longer log in as a ROOT. The amazing team behind CTI has figured out how to avoid the need to have a ROOT Login. We will be using instead the CTI STUDENT log in with password = labviewtraining
+We no longer log in as a ROOT.
+The amazing team behind CTI has figured out how to avoid the need to have a ROOT Login.
+We will be using instead the CTI STUDENT log in with the following password: `labviewtraining`
+
+WARNING: The default keyboard mapping is QWERTY. See <<Setting Up Your Keyboard>> when you're logged in to change the mapping if needed.
 
 image::in_009.00_LogIn.png[]
 
