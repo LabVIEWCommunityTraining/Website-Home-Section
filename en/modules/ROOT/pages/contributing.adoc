@@ -84,3 +84,18 @@ The <<kbd-shortcut-code>> is rendered below.
 ====
 Press kbd:[Ctrl-H] to bring up the context help window.
 ====
+
+== Asciidoc Syntax tips and tricks
+
+=== Inserting a Youtube video
+
+.YouTube video integration
+[source#video]
+[source,asciidoc]
+----
+video::mFiS5q8AXyg[youtube]
+----
+
+The <<video>> is rendered below.
+
+video::mFiS5q8AXyg[youtube]
