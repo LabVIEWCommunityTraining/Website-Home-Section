@@ -1,0 +1,136 @@
+= How to create and manage a new course
+
+IMPORTANT: Courses and associated material hosted by the CTI must be free and licensed under the https://github.com/LabVIEWCommunityTraining/Website-Course-Template/blob/main/LICENSE[MIT license].
+
+== Creating the course
+
+. Course designer: to ask an administrator (TODO: add a way to contact an administrator) to create a project to host the content of your course.
+. Adimistrator: to create a project from https://github.com/LabVIEWCommunityTraining/Website-Course-Template[the website course template] GitHub project.
++
+image::cc_001_project-creation.png[]
++
+. Administrator: to edit the `antora-playbook-en.yml` and all other existing languages (i.e. all `antora-playbook-xx.yml` files) to add the new project to the content list to build.
+
+[source,yaml]
+----
+content:
+  sources:
+  - url: https://github.com/LabVIEWCommunityTraining/Website-Home-Section
+    branches: main
+    start_paths: en
+  - url: https://github.com/LabVIEWCommunityTraining/Website-Course-Template
+    branches: [v*.*]
+    start_paths: www/en
+  - url: https://github.com/LabVIEWCommunityTraining/cti-documentation <1>
+    branches: [v*.*]
+    start_paths: www/en
+----
+
+<1> duplicate this section (the three lines) and updte the url with the url of the project created in the previous point.
+
+== Managing the content
+
+=== Content organization
+
+----
+📁 _public <.>
+📁 .github <.>
+📁 course-material <.>
+📁 www <.>
+----
+
+<.> This folder is used to store the automated built zip file of the content material. Do not remove it.
+<.> This folder contains the action configuration used to build the content automatically
+<.> This folder contains the course material i.e. LabVIEW code for exercices, examples, solutions and any other files needed to follow the course
+<.> This folder contains the webdsite for all the languages
+
+=== Set up the content the first time
+
+When starting the project, do the following:
+
+. Edit the `antora.yml` file like described
++
+[source,yaml]
+----
+name: template-course <.>
+title: Template course <.>
+----
++
+<.> make the title (see the next point) lower case and replace the white spaces by `-`
+<.> set the name of your course
++
+IMPORTANT: the tittle attribute must have course in its name to be display in the website
++
+. Edit the `set-up.adoc` file like described
+
+[source]
+----
+= Set Up Instructions
+
+NOTE: Add all the instructions needed to take the course in this section.
+
+== Download the course material
+
+* https://labviewcommunitytraining.github.io/Website-Course-Template/course-material.zip[Course material zip] <.>
+----
+
+<.> Update the URL with the new project name. 
+
+=== Edit the website content
+
+The content of the website is written in text files using the Asciidoc syntax.
+
+NOTE: The content is intended to be multilingual. Usualy, we recomend to start with the English version to maximize the number of people being able to translate the content in different langages
+
+----
+📁 www
+    📁 en <.>
+    📁 es <.>
+    📁 fr <.>
+    📁 zh <.>
+----
+
+<.> English content
+<.> Spanish content
+<.> French content
+<.> Chinese content
+
+Each language folder have the same hierarchy.
+
+.English folder hierarchy
+----
+📁 en
+    📁 Module/Root
+            📁 images <.>
+            📁 pages <.>
+        📄 nav.adoc <.>
+    📄 antora.yml 
+----
+
+<.> folder to store images
+<.> folder to store pages content
+<.> file organizing the pages in the left sidebar
+
+=== Standardization
+
+As far as you can oragnize your course as you want, we encourage to keep a minimum of standardization between courses.
+
+NOTE: We've been defining formating guidelines https://labviewcommunitytraining.github.io/www/en/contributing.html#writing-conventions[here].
+
+NOTE: Always keep the Overview and Set up page and make them the two first page of your course 
+
+== Building the content
+
+Each time you push a modificaiton to the project, an otomated task is triggered. This will do the following.
+
+* Ziping and publishing the course-material folder
+* Building and publishing the website
+* Rendering the website content to a PDF file
+
+NOTE: the zip file and the PDF are set to be downloaded from the overview page. 
+
+
+== Useful resources
+
+* https://docs.asciidoctor.org/asciidoc/latest/[Asciidoc syntax manual]
+* https://docs.antora.org/antora/latest/[Antora documentation]
