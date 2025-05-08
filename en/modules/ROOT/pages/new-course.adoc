@@ -48,7 +48,8 @@ content:
 
 When starting the project, do the following:
 
-. Edit the `antora.yml` file like described
+. Edit the `README.adoc` file with the useful information regarding your course.
+. Edit the `antora.yml` file like described:
 +
 [source,yaml]
 ----
@@ -61,7 +62,7 @@ title: Template course <.>
 +
 IMPORTANT: the tittle attribute must have course in its name to be display in the website
 +
-. Edit the `set-up.adoc` file like described
+. Edit the `set-up.adoc` file like described:
 
 [source]
 ----
