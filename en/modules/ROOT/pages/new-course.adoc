@@ -60,7 +60,7 @@ title: Template course <.>
 <.> make the title (see the next point) lower case and replace the white spaces by `-`
 <.> set the name of your course
 +
-IMPORTANT: the tittle attribute must have course in its name to be display in the website
+IMPORTANT: the title attribute must have course in its name to be display in the website
 +
 . Edit the `set-up.adoc` file like described:
 
