@@ -81,7 +81,7 @@ NOTE: Add all the instructions needed to take the course in this section.
 
 The content of the website is written in text files using the Asciidoc syntax.
 
-NOTE: The content is intended to be multilingual. Usualy, we recomend to start with the English version to maximize the number of people being able to translate the content in different langages
+NOTE: The content is intended to be multilingual. Usually, we recomend to start with the English version to maximize the number of people being able to translate the content in different langages
 
 ----
 📁 www
@@ -122,9 +122,9 @@ NOTE: Always keep the Overview and Set up page and make them the two first page 
 
 == Building the content
 
-Each time you push a modificaiton to the project, an otomated task is triggered. This will do the following.
+Each time you push a modificaiton to the project, an automated task is triggered. This will do the following.
 
-* Ziping and publishing the course-material folder
+* Zipping and publishing the course-material folder
 * Building and publishing the website
 * Rendering the website content to a PDF file
 
