@@ -98,4 +98,6 @@ video::mFiS5q8AXyg[youtube]
 
 The <<video>> is rendered below.
 
+====
 video::mFiS5q8AXyg[youtube]
+====
