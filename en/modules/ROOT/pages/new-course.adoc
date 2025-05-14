@@ -133,5 +133,5 @@ NOTE: the zip file and the PDF are set to be downloaded from the overview page.
 
 == Useful resources
 
-* https://docs.asciidoctor.org/asciidoc/latest/[Asciidoc syntax manual]
+* https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Asciidoc syntax manual]
 * https://docs.antora.org/antora/latest/[Antora documentation]

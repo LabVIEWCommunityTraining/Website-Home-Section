@@ -27,7 +27,7 @@ IMPORTANT: To edit content you need to have a https://github.com/[GitHub] accoun
 ====
 The content is written using the https://asciidoc.org/[AsciiDoc] markup language.
 
-To learn the basics and advanced features of this language, visit the https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc documentation website].
+To learn the basics and advanced features of this language, visit the https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[AsciiDoc documentation website].
 ====
 
 == Writing conventions
