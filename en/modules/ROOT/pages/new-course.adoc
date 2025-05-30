@@ -28,6 +28,8 @@ content:
 
 <1> duplicate this section (the three lines) and updte the url with the url of the project created in the previous point.
 
+NOTE: This template course is note directly accessible on the website, but you can access it at https://labviewcommunitytraining.github.io/www/en/course_template/v1.0/index.html to see how the template content is display.
+
 == Managing the content
 
 === Set up the content the first time
