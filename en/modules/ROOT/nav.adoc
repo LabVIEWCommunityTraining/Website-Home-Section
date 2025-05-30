@@ -1,4 +1,4 @@
 * xref:index.adoc[The CTI project]
-* xref:set-up.adoc[General set-up]
+* xref:set-up.adoc[Set up the free {lv} VM]
 * xref:contributing.adoc[How to contribute]
 * xref:new-course.adoc[How to create a new course]

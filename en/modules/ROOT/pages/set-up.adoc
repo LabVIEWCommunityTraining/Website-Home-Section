@@ -1,6 +1,4 @@
-= Set-up Instructions
-
-CAUTION: {wip}
+= Set-up free {lv} Vitual Machine Instructions
 
 == Install Virtualbox
 
