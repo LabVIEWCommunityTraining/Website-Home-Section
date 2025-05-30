@@ -30,20 +30,6 @@ content:
 
 == Managing the content
 
-=== Content organization
-
-----
-📁 _public <.>
-📁 .github <.>
-📁 course-material <.>
-📁 www <.>
-----
-
-<.> This folder is used to store the automated built zip file of the content material. Do not remove it.
-<.> This folder contains the action configuration used to build the content automatically
-<.> This folder contains the course material i.e. LabVIEW code for exercices, examples, solutions and any other files needed to follow the course
-<.> This folder contains the webdsite for all the languages
-
 === Set up the content the first time
 
 When starting the project, do the following:
@@ -53,14 +39,12 @@ When starting the project, do the following:
 +
 [source,yaml]
 ----
-name: template-course <.>
-title: Template course <.>
+name: course_template <.>
+title: My template course <.>
 ----
 +
-<.> make the title (see the next point) lower case and replace the white spaces by `-`
-<.> set the name of your course
-+
-IMPORTANT: the title attribute must have course in its name to be display in the website
+<.> The name attribute must start by `course_`, be lower case and not have white spaces
+<.> The value of the title attribute will be the one displayed on th ewebsite
 +
 . Edit the `set-up.adoc` file like described:
 
@@ -75,7 +59,22 @@ NOTE: Add all the instructions needed to take the course in this section.
 * https://labviewcommunitytraining.github.io/Website-Course-Template/course-material.zip[Course material zip] <.>
 ----
 
-<.> Update the URL with the new project name. 
+<.> Update the URL with the GitHub project name. In the example above, `Website-Course-Template` must be replace by your project name. 
+
+=== Content organization
+
+----
+📁 _public <.>
+📁 .github <.>
+📁 course-material <.>
+📁 www <.>
+----
+
+<.> This folder is used to store the automated built zip file of the content material. Do not remove it.
+<.> This folder contains the action configuration used to build the content automatically
+<.> This folder contains the course material i.e. LabVIEW code for exercices, examples, solutions and any other files needed to follow the course
+<.> This folder contains the webdsite for all the languages
+
 
 === Edit the website content
 
