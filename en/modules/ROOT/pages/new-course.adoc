@@ -75,7 +75,7 @@ NOTE: Add all the instructions needed to take the course in this section.
 <.> This folder is used to store the automated built zip file of the content material. Do not remove it.
 <.> This folder contains the action configuration used to build the content automatically
 <.> This folder contains the course material i.e. LabVIEW code for exercices, examples, solutions and any other files needed to follow the course
-<.> This folder contains the webdsite for all the languages
+<.> This folder contains the website for all the languages
 
 
 === Edit the website content
