@@ -5,7 +5,7 @@ IMPORTANT: Courses and associated material hosted by the CTI must be free and li
 == Creating the course
 
 . Course designer: to ask an administrator (TODO: add a way to contact an administrator) to create a project to host the content of your course.
-. Adimistrator: to create a project from https://github.com/LabVIEWCommunityTraining/Website-Course-Template[the website course template] GitHub project.
+. Administrator: to create a project from https://github.com/LabVIEWCommunityTraining/Website-Course-Template[the website course template] GitHub project.
 +
 image::cc_001_project-creation.png[]
 +
