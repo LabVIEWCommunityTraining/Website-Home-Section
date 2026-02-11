@@ -46,7 +46,7 @@ title: My template course <.>
 ----
 +
 <.> The name attribute must start by `course_`, be lower case and not have white spaces
-<.> The value of the title attribute will be the one displayed on th ewebsite
+<.> The value of the title attribute will be the one displayed on the website
 +
 . Edit the `set-up.adoc` file like described:
 
@@ -115,7 +115,7 @@ Each language folder have the same hierarchy.
 
 === Standardization
 
-As far as you can oragnize your course as you want, we encourage to keep a minimum of standardization between courses.
+As far as you can organize your course as you want, we encourage to keep a minimum of standardization between courses.
 
 NOTE: We've been defining formating guidelines https://labviewcommunitytraining.github.io/www/en/contributing.html#writing-conventions[here].
 
@@ -123,7 +123,7 @@ NOTE: Always keep the Overview and Set up page and make them the two first page 
 
 == Building the content
 
-Each time you push a modificaiton to the project, an automated task is triggered. This will do the following.
+Each time you push a modification to the project, an automated task is triggered. This will do the following.
 
 * Zipping and publishing the course-material folder
 * Building and publishing the website
